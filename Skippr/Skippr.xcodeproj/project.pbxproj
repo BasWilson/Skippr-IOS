@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0F8D802042470A00F9E0C4 /* GetAbonnementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F8D7F2042470A00F9E0C4 /* GetAbonnementViewController.swift */; };
+		2D147DB52040CEA00027809B /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D147DB62040CEA00027809B /* SwiftHTTP.framework */; };
+		2D1A17992037AA8C00F5C13B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A17982037AA8C00F5C13B /* AppDelegate.swift */; };
+		2D1A179B2037AA8C00F5C13B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A179A2037AA8C00F5C13B /* FirstViewController.swift */; };
+		2D1A179D2037AA8C00F5C13B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A179C2037AA8C00F5C13B /* SecondViewController.swift */; };
+		2D1A17A02037AA8C00F5C13B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1A179E2037AA8C00F5C13B /* Main.storyboard */; };
+		2D1A17A22037AA8C00F5C13B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1A17A12037AA8C00F5C13B /* Assets.xcassets */; };
+		2D1A17A52037AA8C00F5C13B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1A17A32037AA8C00F5C13B /* LaunchScreen.storyboard */; };
+		2D1A17B02037AA8C00F5C13B /* SkipprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A17AF2037AA8C00F5C13B /* SkipprTests.swift */; };
+		2D1A17BB2037AA8C00F5C13B /* SkipprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A17BA2037AA8C00F5C13B /* SkipprUITests.swift */; };
+		2D1A2D552040D0A600179E4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D1A2D542040D0A600179E4A /* GoogleService-Info.plist */; };
+		2D2D0365203C9FD6000A20E6 /* KaartjesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D0364203C9FD6000A20E6 /* KaartjesViewController.swift */; };
+		2D2D0369203CB361000A20E6 /* KaartjeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D0368203CB361000A20E6 /* KaartjeTableViewCell.swift */; };
+		2D2D036D203CD7A4000A20E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D036C203CD7A4000A20E6 /* ProfileViewController.swift */; };
+		2D2F953E20437A580013CDB2 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F953D20437A580013CDB2 /* Authentication.swift */; };
+		2D2F9540204397AD0013CDB2 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F953F204397AD0013CDB2 /* Security.swift */; };
+		2D6E9419204229420099C9EF /* contractload.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D6E94182042293F0099C9EF /* contractload.gif */; };
+		2D6F36682040CD6D0042DD09 /* AbonnementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F36672040CD6D0042DD09 /* AbonnementViewController.swift */; };
+		2D7B3178203C2E6E0048C4A0 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B3177203C2E6E0048C4A0 /* SplashScreenViewController.swift */; };
+		2D8AB31E204369BE000A6016 /* SuccesCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8AB31D204369BE000A6016 /* SuccesCardController.swift */; };
+		2DAA70AB203A3D110004938D /* uihandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA70AA203A3D110004938D /* uihandling.swift */; };
+		2DAA70AD203A3D500004938D /* firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA70AC203A3D500004938D /* firebase.swift */; };
+		2DAA70B0203A5A1A0004938D /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA70AF203A5A1A0004938D /* KeyboardLayoutConstraint.swift */; };
+		2DD82609203C546C00427214 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD82608203C546C00427214 /* WalletViewController.swift */; };
+		2DEFB1D3203E267A001135CA /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFB1D2203E267A001135CA /* CardViewController.swift */; };
+		2DEFB1D5203E4942001135CA /* NieuwKaartjeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFB1D4203E4942001135CA /* NieuwKaartjeViewController.swift */; };
+		2DFB49B2203C6F2B001BF9B0 /* OpwaarderenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB49B1203C6F2B001BF9B0 /* OpwaarderenViewController.swift */; };
+		3C7B631700FAA7005643EB43 /* Pods_SkipprUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20323999921389F99C1157D1 /* Pods_SkipprUITests.framework */; };
+		5F705EE3192328B87DFBAE0F /* Pods_SkipprTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE3879C51D4FE0A01AFB92F /* Pods_SkipprTests.framework */; };
+		815B1C62136A17263DCAA79D /* Pods_Skippr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12DB77E8EB22935477C6EA7 /* Pods_Skippr.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D1A17AC2037AA8C00F5C13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1A178D2037AA8C00F5C13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1A17942037AA8C00F5C13B;
+			remoteInfo = Skippr;
+		};
+		2D1A17B72037AA8C00F5C13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1A178D2037AA8C00F5C13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1A17942037AA8C00F5C13B;
+			remoteInfo = Skippr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20323999921389F99C1157D1 /* Pods_SkipprUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkipprUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E052A029F040F2DF3DB17B /* Pods-SkipprTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkipprTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkipprTests/Pods-SkipprTests.release.xcconfig"; sourceTree = "<group>"; };
+		2574B9B7F08105B686411ECF /* Pods-SkipprTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkipprTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkipprTests/Pods-SkipprTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D0F8D7F2042470A00F9E0C4 /* GetAbonnementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAbonnementViewController.swift; sourceTree = "<group>"; };
+		2D147DB62040CEA00027809B /* SwiftHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1A17952037AA8C00F5C13B /* Skippr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skippr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1A17982037AA8C00F5C13B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D1A179A2037AA8C00F5C13B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2D1A179C2037AA8C00F5C13B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2D1A179F2037AA8C00F5C13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D1A17A12037AA8C00F5C13B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D1A17A42037AA8C00F5C13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D1A17A62037AA8C00F5C13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1A17AB2037AA8C00F5C13B /* SkipprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkipprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1A17AF2037AA8C00F5C13B /* SkipprTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipprTests.swift; sourceTree = "<group>"; };
+		2D1A17B12037AA8C00F5C13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1A17B62037AA8C00F5C13B /* SkipprUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkipprUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1A17BA2037AA8C00F5C13B /* SkipprUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipprUITests.swift; sourceTree = "<group>"; };
+		2D1A17BC2037AA8C00F5C13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1A2D542040D0A600179E4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2D2D0364203C9FD6000A20E6 /* KaartjesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaartjesViewController.swift; sourceTree = "<group>"; };
+		2D2D0368203CB361000A20E6 /* KaartjeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaartjeTableViewCell.swift; sourceTree = "<group>"; };
+		2D2D036C203CD7A4000A20E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2D2F953D20437A580013CDB2 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		2D2F953F204397AD0013CDB2 /* Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
+		2D6E94182042293F0099C9EF /* contractload.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = contractload.gif; path = "../../../Skippr Assets/Bought assets/contractload.gif"; sourceTree = "<group>"; };
+		2D6F36672040CD6D0042DD09 /* AbonnementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbonnementViewController.swift; sourceTree = "<group>"; };
+		2D7B3177203C2E6E0048C4A0 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		2D8AB31D204369BE000A6016 /* SuccesCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccesCardController.swift; sourceTree = "<group>"; };
+		2DAA70AA203A3D110004938D /* uihandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uihandling.swift; sourceTree = "<group>"; };
+		2DAA70AC203A3D500004938D /* firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebase.swift; sourceTree = "<group>"; };
+		2DAA70AF203A5A1A0004938D /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		2DD82608203C546C00427214 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		2DEFB1D2203E267A001135CA /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		2DEFB1D4203E4942001135CA /* NieuwKaartjeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NieuwKaartjeViewController.swift; sourceTree = "<group>"; };
+		2DFB49B1203C6F2B001BF9B0 /* OpwaarderenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpwaarderenViewController.swift; sourceTree = "<group>"; };
+		3BE3879C51D4FE0A01AFB92F /* Pods_SkipprTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkipprTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C282040E578980E07C965BD /* Pods-SkipprUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkipprUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkipprUITests/Pods-SkipprUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A070985E96B6C0FD62F3C779 /* Pods-Skippr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skippr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skippr/Pods-Skippr.debug.xcconfig"; sourceTree = "<group>"; };
+		A5C0C8C8346223672AFB2687 /* Pods-SkipprUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkipprUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkipprUITests/Pods-SkipprUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B12DB77E8EB22935477C6EA7 /* Pods_Skippr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skippr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF775C4706CE7DD177F89AE6 /* Pods-Skippr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skippr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skippr/Pods-Skippr.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D1A17922037AA8C00F5C13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D147DB52040CEA00027809B /* SwiftHTTP.framework in Frameworks */,
+				815B1C62136A17263DCAA79D /* Pods_Skippr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A17A82037AA8C00F5C13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F705EE3192328B87DFBAE0F /* Pods_SkipprTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A17B32037AA8C00F5C13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7B631700FAA7005643EB43 /* Pods_SkipprUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06B878E284A13317684168BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A070985E96B6C0FD62F3C779 /* Pods-Skippr.debug.xcconfig */,
+				CF775C4706CE7DD177F89AE6 /* Pods-Skippr.release.xcconfig */,
+				2574B9B7F08105B686411ECF /* Pods-SkipprTests.debug.xcconfig */,
+				24E052A029F040F2DF3DB17B /* Pods-SkipprTests.release.xcconfig */,
+				8C282040E578980E07C965BD /* Pods-SkipprUITests.debug.xcconfig */,
+				A5C0C8C8346223672AFB2687 /* Pods-SkipprUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D1A178C2037AA8C00F5C13B = {
+			isa = PBXGroup;
+			children = (
+				2D1A2D542040D0A600179E4A /* GoogleService-Info.plist */,
+				2D1A17972037AA8C00F5C13B /* Skippr */,
+				2D1A17AE2037AA8C00F5C13B /* SkipprTests */,
+				2D1A17B92037AA8C00F5C13B /* SkipprUITests */,
+				2D1A17962037AA8C00F5C13B /* Products */,
+				06B878E284A13317684168BC /* Pods */,
+				82CA52EC4B5ACFE5398EBB2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D1A17962037AA8C00F5C13B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1A17952037AA8C00F5C13B /* Skippr.app */,
+				2D1A17AB2037AA8C00F5C13B /* SkipprTests.xctest */,
+				2D1A17B62037AA8C00F5C13B /* SkipprUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D1A17972037AA8C00F5C13B /* Skippr */ = {
+			isa = PBXGroup;
+			children = (
+				2D6E94182042293F0099C9EF /* contractload.gif */,
+				2D1A17982037AA8C00F5C13B /* AppDelegate.swift */,
+				2D1A179A2037AA8C00F5C13B /* FirstViewController.swift */,
+				2D1A179C2037AA8C00F5C13B /* SecondViewController.swift */,
+				2D1A179E2037AA8C00F5C13B /* Main.storyboard */,
+				2D1A17A12037AA8C00F5C13B /* Assets.xcassets */,
+				2D8AB31D204369BE000A6016 /* SuccesCardController.swift */,
+				2D1A17A32037AA8C00F5C13B /* LaunchScreen.storyboard */,
+				2D1A17A62037AA8C00F5C13B /* Info.plist */,
+				2DAA70AA203A3D110004938D /* uihandling.swift */,
+				2DAA70AC203A3D500004938D /* firebase.swift */,
+				2DAA70AF203A5A1A0004938D /* KeyboardLayoutConstraint.swift */,
+				2D7B3177203C2E6E0048C4A0 /* SplashScreenViewController.swift */,
+				2DD82608203C546C00427214 /* WalletViewController.swift */,
+				2DFB49B1203C6F2B001BF9B0 /* OpwaarderenViewController.swift */,
+				2D2D0364203C9FD6000A20E6 /* KaartjesViewController.swift */,
+				2D2D0368203CB361000A20E6 /* KaartjeTableViewCell.swift */,
+				2D2D036C203CD7A4000A20E6 /* ProfileViewController.swift */,
+				2DEFB1D2203E267A001135CA /* CardViewController.swift */,
+				2DEFB1D4203E4942001135CA /* NieuwKaartjeViewController.swift */,
+				2D6F36672040CD6D0042DD09 /* AbonnementViewController.swift */,
+				2D0F8D7F2042470A00F9E0C4 /* GetAbonnementViewController.swift */,
+				2D2F953D20437A580013CDB2 /* Authentication.swift */,
+				2D2F953F204397AD0013CDB2 /* Security.swift */,
+			);
+			path = Skippr;
+			sourceTree = "<group>";
+		};
+		2D1A17AE2037AA8C00F5C13B /* SkipprTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D1A17AF2037AA8C00F5C13B /* SkipprTests.swift */,
+				2D1A17B12037AA8C00F5C13B /* Info.plist */,
+			);
+			path = SkipprTests;
+			sourceTree = "<group>";
+		};
+		2D1A17B92037AA8C00F5C13B /* SkipprUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D1A17BA2037AA8C00F5C13B /* SkipprUITests.swift */,
+				2D1A17BC2037AA8C00F5C13B /* Info.plist */,
+			);
+			path = SkipprUITests;
+			sourceTree = "<group>";
+		};
+		82CA52EC4B5ACFE5398EBB2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D147DB62040CEA00027809B /* SwiftHTTP.framework */,
+				B12DB77E8EB22935477C6EA7 /* Pods_Skippr.framework */,
+				3BE3879C51D4FE0A01AFB92F /* Pods_SkipprTests.framework */,
+				20323999921389F99C1157D1 /* Pods_SkipprUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D1A17942037AA8C00F5C13B /* Skippr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1A17BF2037AA8C00F5C13B /* Build configuration list for PBXNativeTarget "Skippr" */;
+			buildPhases = (
+				49C64E62B493CD36C621B879 /* [CP] Check Pods Manifest.lock */,
+				2D1A17912037AA8C00F5C13B /* Sources */,
+				2D1A17922037AA8C00F5C13B /* Frameworks */,
+				2D1A17932037AA8C00F5C13B /* Resources */,
+				0B510841C4107E0519C1CF27 /* [CP] Embed Pods Frameworks */,
+				CB554C80CD5E04ADF8999826 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skippr;
+			productName = Skippr;
+			productReference = 2D1A17952037AA8C00F5C13B /* Skippr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D1A17AA2037AA8C00F5C13B /* SkipprTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1A17C22037AA8C00F5C13B /* Build configuration list for PBXNativeTarget "SkipprTests" */;
+			buildPhases = (
+				737193398683FD37D34E7ECA /* [CP] Check Pods Manifest.lock */,
+				2D1A17A72037AA8C00F5C13B /* Sources */,
+				2D1A17A82037AA8C00F5C13B /* Frameworks */,
+				2D1A17A92037AA8C00F5C13B /* Resources */,
+				7D53D47BC3232D4C100B8010 /* [CP] Embed Pods Frameworks */,
+				719CEF274A470B650A43FE69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1A17AD2037AA8C00F5C13B /* PBXTargetDependency */,
+			);
+			name = SkipprTests;
+			productName = SkipprTests;
+			productReference = 2D1A17AB2037AA8C00F5C13B /* SkipprTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D1A17B52037AA8C00F5C13B /* SkipprUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1A17C52037AA8C00F5C13B /* Build configuration list for PBXNativeTarget "SkipprUITests" */;
+			buildPhases = (
+				4CA9640960C543B4F27497C3 /* [CP] Check Pods Manifest.lock */,
+				2D1A17B22037AA8C00F5C13B /* Sources */,
+				2D1A17B32037AA8C00F5C13B /* Frameworks */,
+				2D1A17B42037AA8C00F5C13B /* Resources */,
+				66F3D8D15B6E1E5472EC2D7B /* [CP] Embed Pods Frameworks */,
+				1D68142F3FADF1B5211506EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1A17B82037AA8C00F5C13B /* PBXTargetDependency */,
+			);
+			name = SkipprUITests;
+			productName = SkipprUITests;
+			productReference = 2D1A17B62037AA8C00F5C13B /* SkipprUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D1A178D2037AA8C00F5C13B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = OnPointCoding;
+				TargetAttributes = {
+					2D1A17942037AA8C00F5C13B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2D1A17AA2037AA8C00F5C13B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D1A17942037AA8C00F5C13B;
+					};
+					2D1A17B52037AA8C00F5C13B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D1A17942037AA8C00F5C13B;
+					};
+				};
+			};
+			buildConfigurationList = 2D1A17902037AA8C00F5C13B /* Build configuration list for PBXProject "Skippr" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D1A178C2037AA8C00F5C13B;
+			productRefGroup = 2D1A17962037AA8C00F5C13B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D1A17942037AA8C00F5C13B /* Skippr */,
+				2D1A17AA2037AA8C00F5C13B /* SkipprTests */,
+				2D1A17B52037AA8C00F5C13B /* SkipprUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1A17932037AA8C00F5C13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1A17A52037AA8C00F5C13B /* LaunchScreen.storyboard in Resources */,
+				2D1A2D552040D0A600179E4A /* GoogleService-Info.plist in Resources */,
+				2D6E9419204229420099C9EF /* contractload.gif in Resources */,
+				2D1A17A22037AA8C00F5C13B /* Assets.xcassets in Resources */,
+				2D1A17A02037AA8C00F5C13B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A17A92037AA8C00F5C13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A17B42037AA8C00F5C13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B510841C4107E0519C1CF27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Skippr/Pods-Skippr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BiometricAuthentication/BiometricAuthentication.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHTTP/SwiftHTTP.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BiometricAuthentication.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHTTP.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skippr/Pods-Skippr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D68142F3FADF1B5211506EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkipprUITests/Pods-SkipprUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49C64E62B493CD36C621B879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skippr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CA9640960C543B4F27497C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkipprUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F3D8D15B6E1E5472EC2D7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkipprUITests/Pods-SkipprUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		719CEF274A470B650A43FE69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkipprTests/Pods-SkipprTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737193398683FD37D34E7ECA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkipprTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D53D47BC3232D4C100B8010 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkipprTests/Pods-SkipprTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB554C80CD5E04ADF8999826 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skippr/Pods-Skippr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D1A17912037AA8C00F5C13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1A179D2037AA8C00F5C13B /* SecondViewController.swift in Sources */,
+				2D1A17992037AA8C00F5C13B /* AppDelegate.swift in Sources */,
+				2D7B3178203C2E6E0048C4A0 /* SplashScreenViewController.swift in Sources */,
+				2DAA70AB203A3D110004938D /* uihandling.swift in Sources */,
+				2D1A179B2037AA8C00F5C13B /* FirstViewController.swift in Sources */,
+				2D2F9540204397AD0013CDB2 /* Security.swift in Sources */,
+				2DFB49B2203C6F2B001BF9B0 /* OpwaarderenViewController.swift in Sources */,
+				2D0F8D802042470A00F9E0C4 /* GetAbonnementViewController.swift in Sources */,
+				2DEFB1D5203E4942001135CA /* NieuwKaartjeViewController.swift in Sources */,
+				2D6F36682040CD6D0042DD09 /* AbonnementViewController.swift in Sources */,
+				2D8AB31E204369BE000A6016 /* SuccesCardController.swift in Sources */,
+				2D2D036D203CD7A4000A20E6 /* ProfileViewController.swift in Sources */,
+				2DEFB1D3203E267A001135CA /* CardViewController.swift in Sources */,
+				2DD82609203C546C00427214 /* WalletViewController.swift in Sources */,
+				2D2D0365203C9FD6000A20E6 /* KaartjesViewController.swift in Sources */,
+				2DAA70AD203A3D500004938D /* firebase.swift in Sources */,
+				2D2D0369203CB361000A20E6 /* KaartjeTableViewCell.swift in Sources */,
+				2DAA70B0203A5A1A0004938D /* KeyboardLayoutConstraint.swift in Sources */,
+				2D2F953E20437A580013CDB2 /* Authentication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A17A72037AA8C00F5C13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1A17B02037AA8C00F5C13B /* SkipprTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A17B22037AA8C00F5C13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1A17BB2037AA8C00F5C13B /* SkipprUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D1A17AD2037AA8C00F5C13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D1A17942037AA8C00F5C13B /* Skippr */;
+			targetProxy = 2D1A17AC2037AA8C00F5C13B /* PBXContainerItemProxy */;
+		};
+		2D1A17B82037AA8C00F5C13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D1A17942037AA8C00F5C13B /* Skippr */;
+			targetProxy = 2D1A17B72037AA8C00F5C13B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D1A179E2037AA8C00F5C13B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1A179F2037AA8C00F5C13B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D1A17A32037AA8C00F5C13B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1A17A42037AA8C00F5C13B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D1A17BD2037AA8C00F5C13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D1A17BE2037AA8C00F5C13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D1A17C02037AA8C00F5C13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A070985E96B6C0FD62F3C779 /* Pods-Skippr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z474VVMBQ5;
+				INFOPLIST_FILE = Skippr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnPointCoding.Skippr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2D1A17C12037AA8C00F5C13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF775C4706CE7DD177F89AE6 /* Pods-Skippr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z474VVMBQ5;
+				INFOPLIST_FILE = Skippr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnPointCoding.Skippr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2D1A17C32037AA8C00F5C13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2574B9B7F08105B686411ECF /* Pods-SkipprTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkipprTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnPointCoding.SkipprTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skippr.app/Skippr";
+			};
+			name = Debug;
+		};
+		2D1A17C42037AA8C00F5C13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E052A029F040F2DF3DB17B /* Pods-SkipprTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkipprTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnPointCoding.SkipprTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skippr.app/Skippr";
+			};
+			name = Release;
+		};
+		2D1A17C62037AA8C00F5C13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C282040E578980E07C965BD /* Pods-SkipprUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkipprUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnPointCoding.SkipprUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skippr;
+			};
+			name = Debug;
+		};
+		2D1A17C72037AA8C00F5C13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C0C8C8346223672AFB2687 /* Pods-SkipprUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkipprUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnPointCoding.SkipprUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skippr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D1A17902037AA8C00F5C13B /* Build configuration list for PBXProject "Skippr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1A17BD2037AA8C00F5C13B /* Debug */,
+				2D1A17BE2037AA8C00F5C13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1A17BF2037AA8C00F5C13B /* Build configuration list for PBXNativeTarget "Skippr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1A17C02037AA8C00F5C13B /* Debug */,
+				2D1A17C12037AA8C00F5C13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1A17C22037AA8C00F5C13B /* Build configuration list for PBXNativeTarget "SkipprTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1A17C32037AA8C00F5C13B /* Debug */,
+				2D1A17C42037AA8C00F5C13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1A17C52037AA8C00F5C13B /* Build configuration list for PBXNativeTarget "SkipprUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1A17C62037AA8C00F5C13B /* Debug */,
+				2D1A17C72037AA8C00F5C13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D1A178D2037AA8C00F5C13B /* Project object */;
+}
