@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Skippr/uihandling.swift"
+            timestampString = "541379296.025279"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "TextField"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Skippr.TextField.padding.getter : __C.UIEdgeInsets"
+                  moduleName = "Skippr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baswilson/Documents/XCode%20Projects/Skippr/Skippr/uihandling.swift"
+                  timestampString = "541375902.3784519"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Skippr.TextField.init(frame: __C.CGRect) -&gt; Skippr.TextField"
+                  moduleName = "Skippr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baswilson/Documents/XCode%20Projects/Skippr/Skippr/uihandling.swift"
+                  timestampString = "541375902.380023"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Skippr.TextField.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Skippr.TextField&gt;"
+                  moduleName = "Skippr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baswilson/Documents/XCode%20Projects/Skippr/Skippr/uihandling.swift"
+                  timestampString = "541375902.3816381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Skippr/KeyboardLayoutConstraint.swift"
+            timestampString = "540698601.816929"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "keyboardWillShowNotification(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
